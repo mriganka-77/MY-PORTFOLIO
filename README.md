@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# 🌌 Mriganka Chakraborty — Futuristic Developer Portfolio
 
-## Project info
+Welcome to my personal **developer portfolio**, designed to represent my passion for **AI-driven development**, **software engineering**, and **creative problem-solving**.  
+This site is a futuristic, responsive portfolio built to showcase my **projects**, **skills**, **achievements**, and **certifications** — all in one place.
 
-**URL**: https://lovable.dev/projects/1ed54397-f787-458b-b998-44ae3a054e94
+---
 
-## How can I edit this code?
+## 🧠 About Me
+I’m **Mriganka Chakraborty**, a **B.Tech Computer Science and Engineering student** at **Adamas University**, passionate about **AI, ML, data-driven applications**, and **modern web technologies**.  
+I love combining logic with creativity to engineer futuristic, impactful solutions.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ⚙️ Tech Stack
+- **Languages:** Python, Java, HTML, CSS, JavaScript  
+- **Frameworks & Tools:** React, Tailwind CSS, Node.js, Git, GitHub  
+- **Concepts:** Data Structures & Algorithms (DSA), OOP, AI & ML Fundamentals  
+- **Design Style:** Futuristic UI, Glassmorphism, Neon Glow Effects  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1ed54397-f787-458b-b998-44ae3a054e94) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💻 Featured Projects
 
-**Use your preferred IDE**
+| Project | Description | Link |
+|----------|--------------|------|
+| **[SplitSmart](https://github.com/mriganka-77/SplitSmart.git)** | Smart expense tracker for splitting bills and managing group balances. | 🔗 GitHub |
+| **[Weather Now](https://github.com/mriganka-77/Weather-Now.git)** | Real-time weather app with animated UI and live API integration. | 🔗 GitHub |
+| **[Hybrid Movie Recommendation System](https://github.com/mriganka-77/HYBRID-MOVIE-RECOMMENDATION-SYSTEM.git)** | AI-based hybrid recommender using collaborative + content filtering. | 🔗 GitHub |
+| **[N-Queens Visualizer](https://github.com/mriganka-77/N-QUEENS.git)** | Interactive visualization of the backtracking-based N-Queens algorithm. | 🔗 GitHub |
+| **[OOP Projects](https://github.com/mriganka-77/OBJECT-ORIENTED-PROGRAMMING.git)** | Collection of Java/C++ OOP programs and examples. | 🔗 GitHub |
+| **[Python Projects](https://github.com/mriganka-77/PYTHON-PROJECTS.git)** | Mini Python projects showcasing automation & algorithms. | 🔗 GitHub |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏆 Achievements & Certifications
+- **150+ Coding Problems Solved** on LeetCode & HackerRank  
+- **Active Open Source Contributor** on GitHub  
+- **ICDMAI 2025 Pre-Conference Workshop** — Data Science & Analytics  
+- **Be 10x AI Tools Workshop Certified**  
+- **Infosys Springboard Certifications** — Design Thinking, Python, and more  
+- **CGPA:** 6.91 (B.Tech CSE)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛰️ Site Features
+- 🌗 Dark + Light Mode Toggle  
+- 💡 Futuristic Neon Design with Glassmorphism  
+- 📱 Fully Responsive (Desktop + Mobile)  
+- 🧩 Smooth Scroll & Animated Sections  
+- ⚙️ Dynamic Project Cards + Live GitHub Links  
+- 📬 Functional Contact Form  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ⚡ Setup Instructions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1ed54397-f787-458b-b998-44ae3a054e94) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/mriganka-77/mriganka-portfolio.git
+cd mriganka-portfolio
