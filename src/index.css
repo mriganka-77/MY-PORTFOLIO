@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 7%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 7%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 263 70% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 199 89% 55%;
+    --secondary-foreground: 240 10% 3.9%;
+
+    --muted: 240 5% 25%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 326 78% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 10% 15%;
+    --input: 240 10% 15%;
+    --ring: 263 70% 60%;
+
+    --radius: 0.75rem;
+
+    --neon-cyan: 180 100% 50%;
+    --neon-pink: 326 78% 60%;
+    --neon-violet: 263 70% 60%;
+    --neon-blue: 199 89% 55%;
+    
+    --glass-bg: 240 10% 10% / 0.4;
+    --glass-border: 0 0% 100% / 0.1;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/10;
+  }
+  
+  .glass-strong {
+    @apply bg-white/[0.08] backdrop-blur-2xl border border-white/20;
+  }
+  
+  .neon-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-secondary via-primary to-accent;
+  }
+  
+  .neon-glow {
+    text-shadow: 0 0 10px hsl(var(--primary) / 0.5),
+                 0 0 20px hsl(var(--primary) / 0.3),
+                 0 0 30px hsl(var(--primary) / 0.2);
+  }
+  
+  .neon-border {
+    @apply border-2 border-primary shadow-[0_0_15px_rgba(168,85,247,0.4)];
+  }
+  
+  .gradient-primary {
+    @apply bg-gradient-to-br from-secondary via-primary to-accent;
+  }
+  
+  .gradient-radial {
+    background: radial-gradient(circle at 50% 50%, 
+      hsl(var(--secondary) / 0.15) 0%, 
+      transparent 50%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Exo 2', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
